@@ -1,6 +1,6 @@
 var sum=0;
 var p=0;
-var v=document.querySelector("#vathm");
+var v=document.querySelector("#vathm");document.querySelector("#vathm");
 const calc=document.querySelector("#calc");
 const r=document.querySelector("#reset");
 const averg=document.querySelector("#averg");
@@ -33,5 +33,10 @@ function eleghos(e){
 }
 
 function epanafora(){
-	
+	sum=0;
+	p=0;
+	vathm.value="";
+	averg.value="";
+	plithos.value="";
+	errmsg.innerHTML="";
 }
