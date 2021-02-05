@@ -39,4 +39,5 @@ function epanafora(){
 	averg.value="";
 	plithos.value="";
 	errmsg.innerHTML="";
+	return false;
 }
